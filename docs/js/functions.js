@@ -48,6 +48,7 @@ function  workLoad() {
 
   $.ajaxSetup({ cache: true });
 	jQuery.support.cors = true;
+	var protocol = window.location.protocol || document.location.protocol;
 
   $('.thumb-container label').click(function() {
     var $this = $(this),
@@ -56,12 +57,13 @@ function  workLoad() {
         spinner = '<div class="loader">Loading...</div>';
         // newHTML = 'https://phongtlam.github.io/myworld/work/'+ newfolder;
 				// console.log('new HTML is', newHTML)
+				console.log('protocol', protocol)
 
 		$.ajax({
 		    type: 'GET',
 		    // dataType: "jsonp",
 		    crossDomain: true,
-		    url: "https://phongtlam.github.io/myworld/work/" + newfolder,
+		    url: protocol + "/myworld/work/" + newfolder,
 		    success: function (responseData, textStatus, jqXHR) {
 						console.log('resp data', typeof(responseData))
 		        $('.project-load').html(responseData);
