@@ -148,7 +148,7 @@ function clientStuff() {
 /*!
 	Autosize 1.18.12
 	license: MIT
-	http://www.jacklmoore.com/autosize
+	https://www.jacklmoore.com/autosize
 */
 (function ($) {
 	var
