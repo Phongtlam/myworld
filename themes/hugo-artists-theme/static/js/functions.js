@@ -63,7 +63,7 @@ function  workLoad() {
 		    type: 'GET',
 		    // dataType: "jsonp",
 		    crossDomain: true,
-		    url: protocol + "/myworld/work/" + newfolder,
+		    url: protocol + "//phongtlam.github.io/myworld/work/" + newfolder,
 		    success: function (responseData, textStatus, jqXHR) {
 						console.log('resp data', typeof(responseData))
 		        $('.project-load').html(responseData);
