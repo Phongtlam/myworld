@@ -37,7 +37,7 @@ theme = "hugo-artists-theme"
 	# But keep the original filename!
 	[params.header]
 		title = "Welcome to my World"
-		shortBio = "Software Engineer // Web Developer // Chess // Science-Fiction // Music"
+		shortBio = "Software Engineer // Chess // Science-Fiction // Music"
 
 
 	# About section
