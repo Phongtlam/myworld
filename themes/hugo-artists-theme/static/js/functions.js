@@ -53,7 +53,7 @@ function  workLoad() {
         newTitle = $this.find('strong').text(),
         newfolder = $this.find('.thumb-unit').data('folder'),
         spinner = '<div class="loader">Loading...</div>',
-        // newHTML = '/myworld/work/'+ newfolder;
+        newHTML = '/myworld/work/'+ newfolder;
 				console.log('new HTML is', newHTML)
 
 		$('.project-load').html(spinner).ajax({
