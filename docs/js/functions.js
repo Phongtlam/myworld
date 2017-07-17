@@ -53,16 +53,16 @@ function  workLoad() {
         newTitle = $this.find('strong').text(),
         newfolder = $this.find('.thumb-unit').data('folder'),
         spinner = '<div class="loader">Loading...</div>',
-        newHTML = '/myworld/work/'+ newfolder;
+        newHTML = 'https://phongtlam.github.io/myworld/work/'+ newfolder;
 				console.log('new HTML is', newHTML)
 
-		$('.project-load').html(spinner).ajax({
-			type: 'GET',
-			url: 'https:https://phongtlam.github.io/myworld/work' + newfolder,
-		});
+		// $('.project-load').html(spinner).ajax({
+		// 	type: 'GET',
+		// 	url: 'https:https://phongtlam.github.io/myworld/work' + newfolder,
+		// });
 
 
-    // $('.project-load').html(spinner).load(newHTML);
+    $('.project-load').html(spinner).load(newHTML);
     $('.project-title').text(newTitle);
   });
 
