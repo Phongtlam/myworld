@@ -53,9 +53,9 @@ function  workLoad() {
     var $this = $(this),
         newTitle = $this.find('strong').text(),
         newfolder = $this.find('.thumb-unit').data('folder'),
-        spinner = '<div class="loader">Loading...</div>',
-        newHTML = 'https://phongtlam.github.io/myworld/work/'+ newfolder;
-				console.log('new HTML is', newHTML)
+        spinner = '<div class="loader">Loading...</div>';
+        // newHTML = 'https://phongtlam.github.io/myworld/work/'+ newfolder;
+				// console.log('new HTML is', newHTML)
 
 		$.ajax({
 		    type: 'GET',
