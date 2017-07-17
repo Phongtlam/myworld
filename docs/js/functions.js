@@ -47,6 +47,7 @@ function workBelt() {
 function  workLoad() {
 
   $.ajaxSetup({ cache: true });
+	$.support.cors = true;
 
   $('.thumb-container label').click(function() {
     var $this = $(this),
@@ -56,13 +57,25 @@ function  workLoad() {
         newHTML = 'https://phongtlam.github.io/myworld/work/'+ newfolder;
 				console.log('new HTML is', newHTML)
 
-		// $('.project-load').html(spinner).ajax({
-		// 	type: 'GET',
-		// 	url: 'https:https://phongtlam.github.io/myworld/work' + newfolder,
-		// });
+		$.ajax({
+		    type: 'GET',
+		    // dataType: "text",
+		    crossDomain: true,
+		    url: "https://phongtlam.github.io/myworld/work/" + newfolder,
+		    success: function (responseData, textStatus, jqXHR) {
+		        var _data = JSON.parse(
+		            responseData.replace(
+		                '{"AuthenticateUserResult":"', ''
+		            ).replace('}"}', '}')
+		        );
+		        $('.project-load').html(_data);
+		    },
+		    error: function (responseData, textStatus, errorThrown) {
+		        alert('POST failed.');
+		    }
+		});
 
-
-    $('.project-load').html(spinner).load(newHTML);
+    // $('.project-load').html(spinner).load(newHTML);
     $('.project-title').text(newTitle);
   });
 
