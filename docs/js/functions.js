@@ -63,7 +63,7 @@ function  workLoad() {
 		    type: 'GET',
 		    // dataType: "jsonp",
 		    crossDomain: true,
-		    url: "//myworld/work/" + newfolder,
+		    url: "/myworld/work/" + newfolder + '/',
 		    success: function (responseData, textStatus, jqXHR) {
 						console.log('resp data', typeof(responseData))
 		        $('.project-load').html(responseData);
