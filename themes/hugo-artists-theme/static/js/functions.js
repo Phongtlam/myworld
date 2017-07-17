@@ -63,12 +63,8 @@ function  workLoad() {
 		    crossDomain: true,
 		    url: "https://phongtlam.github.io/myworld/work/" + newfolder,
 		    success: function (responseData, textStatus, jqXHR) {
-		        var _data = JSON.parse(
-		            responseData.replace(
-		                '{"AuthenticateUserResult":"', ''
-		            ).replace('}"}', '}')
-		        );
-		        $('.project-load').html(_data);
+						console.log(responseData)
+		        $('.project-load').html(responseData);
 		    },
 		    error: function (responseData, textStatus, errorThrown) {
 		        alert('POST failed.');
