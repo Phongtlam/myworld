@@ -1,0 +1,43 @@
+title = "Recommendations"
+
+[[list]]
+    avatar = "alana.jpg"
+    name   = "Alana Turangan"
+    title  = "Software Engineer"
+    quote  = "**He is extremely dedicated** to any task that he takes on, and is the hardest worker I know. Along with that, he has strong technical skills that shows in his contributions to group work."
+    logo   = "ucdavis.png"
+
+[[list]]
+    avatar = "shawn.jpg"
+    name   = "Shawn Feng"
+    title  = "Full-stack Software Engineer"
+    quote  = "**Phong is very dedicated to his tasks.** His work ethics together with positivity are outstanding."
+    logo   = "abbott.png"
+
+[[list]]
+    avatar = "morgan.jpg"
+    name   = "Morgan Battrell"
+    title  = "Doctor Advocate"
+    quote  = "**Phong is very positive and coachable.** He always brings the energy and awesome work ethics to the team!"
+    logo   = "realself.png"
+
+[[list]]
+    avatar = "ian.jpg"
+    name   = "Ian Cummings"
+    title  = "Customer Success Manager"
+    quote  = "**He is not afraid to take risks** and often suggests new directions to explore. Phong was instrumental in introducing our uncovering opportunities for training."
+    logo   = "porch.png"
+
+[[list]]
+    avatar = "miked.jpg"
+    name   = "Michael Diodoro"
+    title  = "Full-stack Software Engineer"
+    quote  = "His work ethic is humbling and is capable of **deriving solutions for tough problems without hesitation**. Phong would be an invaluable member of any team, reigning in an ethos of positivity and productivity."
+    logo   = "hackreactor.png"
+
+[[list]]
+    avatar = "jonny.jpg"
+    name   = "Jonathan Bradshaw"
+    title  = "Full-stack Software Engineer"
+    quote  = "**Phong has that rare mix of work ethic, enthusiasm, technical, and communication skills** that makes him an asset and a pleasure to work with. He is a great team player who communicates proactively and mentors team members as needed."
+    logo   = "luz.png"

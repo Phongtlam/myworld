@@ -1,0 +1,18 @@
+# Section title
+title = "Portfolio"
+
+[[projects]]
+    name = "React-Chess"
+    folder = "proj-1"
+
+[[projects]]
+    name = "CarGo"
+    folder = "proj-2"
+
+[[projects]]
+    name = "Moodify"
+    folder = "proj-3"
+
+[[projects]]
+    name = "Yap!"
+    folder = "proj-4"
