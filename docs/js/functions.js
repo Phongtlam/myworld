@@ -59,7 +59,7 @@ function  workLoad() {
 
 		$.ajax({
 		    type: 'GET',
-		    // dataType: "text",
+		    dataType: "text",
 		    crossDomain: true,
 		    url: "https://phongtlam.github.io/myworld/work/" + newfolder,
 		    success: function (responseData, textStatus, jqXHR) {
@@ -67,6 +67,7 @@ function  workLoad() {
 		        $('.project-load').html(responseData);
 		    },
 		    error: function (responseData, textStatus, errorThrown) {
+					console.log('err', errorThrown)
 		        alert('POST failed.');
 		    }
 		});
