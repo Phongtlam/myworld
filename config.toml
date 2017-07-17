@@ -67,17 +67,17 @@ theme = "hugo-artists-theme"
 			name = "Web Design"
 			value = 7
 
-		[[params.about.skills]]
-			name = "React/Redux"
-			value = 8
+		# [[params.about.skills]]
+		# 	name = "React/Redux"
+		# 	value = 8
+		#
+		# [[params.about.skills]]
+		# 	name = "Node.JS"
+		# 	value = 7
 
-		[[params.about.skills]]
-			name = "Node.JS"
-			value = 7
-
-		[[params.about.skills]]
-			name = "HTML5/CSS3"
-			value = 6
+		# [[params.about.skills]]
+		# 	name = "HTML5/CSS3"
+		# 	value = 6
 
 		[[params.about.skills]]
 			name = "UI/UX Design"
