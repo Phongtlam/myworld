@@ -68,8 +68,7 @@ function  workLoad() {
 		        $('.project-load').html(responseData);
 		    },
 		    error: function (responseData, textStatus, errorThrown) {
-					console.log('err', errorThrown)
-		        alert('POST failed.');
+		        console.log('POST failed.');
 		    }
 		});
 
