@@ -45,7 +45,7 @@ theme = "hugo-artists-theme"
 	# Replace the 'avatar.jpg' under 'static/img' with your own image.
 	[params.about]
 		title = "About me"
-		bio = "**Phong specializes in making beautiful software and user interfaces**. He has a passion for all things science and [chess AI](https://deep-subs.herokuapp.com). When not coding, you can find him reading, writing, listening to [music](https://soundcloud.com/phong-twitch-lam) or working out at the gym. Follow his [journey](https://github.com/Phongtlam) as a developer or just send him a message to connect."
+		bio = "**Phong specializes in making beautiful software and user interfaces**. He has a passion for all things science and [chess AI](https://deep-subs.herokuapp.com). When not coding, he'd be [reading](https://omni.media/best-isaac-asimov-books), writing, listening to [music](https://soundcloud.com/phong-twitch-lam) or working out at the gym. Follow his [journey](https://github.com/Phongtlam) as a developer or just send him a message to connect."
 
 		[[params.about.skills]]
 			name = "Communication"
@@ -103,7 +103,7 @@ theme = "hugo-artists-theme"
 		# Form fields
 		name = "Your Name"
 		email = "Your Email"
-		message = "Tell me about your project"
+		message = "When can we chat?"
 		buttonText = "Send"
 
 
