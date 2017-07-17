@@ -1,7 +1,7 @@
 publishDir = "docs"
 
 # Site settings
-baseurl = "https://phongtlam.github.io/myworld/"
+baseurl = "http://phongtlam.github.io/myworld/"
 languageCode = "en-us"
 title = "My 1000 miles journey"
 theme = "hugo-artists-theme"
