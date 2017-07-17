@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>My 1000 miles journey</title>
-    <link>https://phongtlam.github.io/myworld/</link>
+    <link>http://phongtlam.github.io/myworld/</link>
     <description>Recent content on My 1000 miles journey</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="https://phongtlam.github.io/myworld/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://phongtlam.github.io/myworld/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title></title>
-      <link>https://phongtlam.github.io/myworld/work/proj-1/</link>
+      <link>http://phongtlam.github.io/myworld/work/proj-1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://phongtlam.github.io/myworld/work/proj-1/</guid>
+      <guid>http://phongtlam.github.io/myworld/work/proj-1/</guid>
       <description>React-Chess was born from the love of the game. This is going to be under constant development as I learn to optimize the AI, get better at the game and just build beautiful UI. If you have the love for chess or programming in general, I&amp;rsquo;d love to chat!
 GitHub source code
 Project overview:
@@ -24,19 +24,19 @@ Project overview:
     
     <item>
       <title></title>
-      <link>https://phongtlam.github.io/myworld/work/proj-1old/</link>
+      <link>http://phongtlam.github.io/myworld/work/proj-1old/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://phongtlam.github.io/myworld/work/proj-1old/</guid>
+      <guid>http://phongtlam.github.io/myworld/work/proj-1old/</guid>
       <description>TYPO: International Design Talks is an annual event held in Berlin, London, and San Francisco. This promotional project is developed to market the event for the designindustry. The use of patterns, sophisticated color scheme and typography are applied for the print and mobile application.</description>
     </item>
     
     <item>
       <title></title>
-      <link>https://phongtlam.github.io/myworld/work/proj-2/</link>
+      <link>http://phongtlam.github.io/myworld/work/proj-2/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://phongtlam.github.io/myworld/work/proj-2/</guid>
+      <guid>http://phongtlam.github.io/myworld/work/proj-2/</guid>
       <description>CarGo: A carpool application used to connect users and enable then to create carpools by location and time
 GitHub source code
 Project overview:
@@ -45,19 +45,19 @@ Project overview:
     
     <item>
       <title></title>
-      <link>https://phongtlam.github.io/myworld/work/proj-2old/</link>
+      <link>http://phongtlam.github.io/myworld/work/proj-2old/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://phongtlam.github.io/myworld/work/proj-2old/</guid>
+      <guid>http://phongtlam.github.io/myworld/work/proj-2old/</guid>
       <description></description>
     </item>
     
     <item>
       <title></title>
-      <link>https://phongtlam.github.io/myworld/work/proj-3/</link>
+      <link>http://phongtlam.github.io/myworld/work/proj-3/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://phongtlam.github.io/myworld/work/proj-3/</guid>
+      <guid>http://phongtlam.github.io/myworld/work/proj-3/</guid>
       <description>Moodify was a Legacy Project that I worked on. Utilized Watson API for lyrics analysis, the app aims to give music lovers better understandings of the songs they love.
 GitHub source code
 Project overview:
@@ -66,19 +66,19 @@ Project overview:
     
     <item>
       <title></title>
-      <link>https://phongtlam.github.io/myworld/work/proj-3old/</link>
+      <link>http://phongtlam.github.io/myworld/work/proj-3old/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://phongtlam.github.io/myworld/work/proj-3old/</guid>
+      <guid>http://phongtlam.github.io/myworld/work/proj-3old/</guid>
       <description></description>
     </item>
     
     <item>
       <title></title>
-      <link>https://phongtlam.github.io/myworld/work/proj-4/</link>
+      <link>http://phongtlam.github.io/myworld/work/proj-4/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://phongtlam.github.io/myworld/work/proj-4/</guid>
+      <guid>http://phongtlam.github.io/myworld/work/proj-4/</guid>
       <description>Yap! is a voice-enabled, location specific search for tourists. The application was built with walking distance in mind and gives recommendations based on Google and Yelp APIs.
 GitHub source code
 Project overview:
@@ -87,46 +87,46 @@ Project overview:
     
     <item>
       <title></title>
-      <link>https://phongtlam.github.io/myworld/work/proj-4old/</link>
+      <link>http://phongtlam.github.io/myworld/work/proj-4old/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://phongtlam.github.io/myworld/work/proj-4old/</guid>
+      <guid>http://phongtlam.github.io/myworld/work/proj-4old/</guid>
       <description></description>
     </item>
     
     <item>
       <title></title>
-      <link>https://phongtlam.github.io/myworld/work/proj-5/</link>
+      <link>http://phongtlam.github.io/myworld/work/proj-5/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://phongtlam.github.io/myworld/work/proj-5/</guid>
+      <guid>http://phongtlam.github.io/myworld/work/proj-5/</guid>
       <description></description>
     </item>
     
     <item>
       <title></title>
-      <link>https://phongtlam.github.io/myworld/work/proj-6/</link>
+      <link>http://phongtlam.github.io/myworld/work/proj-6/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://phongtlam.github.io/myworld/work/proj-6/</guid>
+      <guid>http://phongtlam.github.io/myworld/work/proj-6/</guid>
       <description></description>
     </item>
     
     <item>
       <title></title>
-      <link>https://phongtlam.github.io/myworld/work/proj-7/</link>
+      <link>http://phongtlam.github.io/myworld/work/proj-7/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://phongtlam.github.io/myworld/work/proj-7/</guid>
+      <guid>http://phongtlam.github.io/myworld/work/proj-7/</guid>
       <description></description>
     </item>
     
     <item>
       <title></title>
-      <link>https://phongtlam.github.io/myworld/work/proj-8/</link>
+      <link>http://phongtlam.github.io/myworld/work/proj-8/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://phongtlam.github.io/myworld/work/proj-8/</guid>
+      <guid>http://phongtlam.github.io/myworld/work/proj-8/</guid>
       <description></description>
     </item>
     
