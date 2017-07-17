@@ -60,12 +60,12 @@ theme = "hugo-artists-theme"
 			value = 10
 
 		[[params.about.skills]]
-		name = "Programming"
-		value = 7
+			name = "Programming"
+			value = 7
 
 		[[params.about.skills]]
-		name = "Web Design"
-		value = 7
+			name = "Web Design"
+			value = 7
 
 		[[params.about.skills]]
 			name = "React/Redux"
