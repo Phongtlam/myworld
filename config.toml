@@ -60,6 +60,14 @@ theme = "hugo-artists-theme"
 			value = 10
 
 		[[params.about.skills]]
+		name = "Programming"
+		value = 7
+
+		[[params.about.skills]]
+		name = "Web Design"
+		value = 7
+
+		[[params.about.skills]]
 			name = "React/Redux"
 			value = 8
 
@@ -75,9 +83,6 @@ theme = "hugo-artists-theme"
 			name = "UI/UX Design"
 			value = 6
 
-		[[params.about.skills]]
-			name = "Programming"
-			value = 7
 
 	# Contact secion
 	[params.contact]
@@ -103,7 +108,7 @@ theme = "hugo-artists-theme"
 		# Form fields
 		name = "Your Name"
 		email = "Your Email"
-		message = "When can we chat?"
+		message = "Tell me about your awesome project!"
 		buttonText = "Send"
 
 
