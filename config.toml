@@ -72,6 +72,10 @@ theme = "hugo-artists-theme"
 			value = 6
 
 		[[params.about.skills]]
+			name = "JavaScript"
+			value = 7
+
+		[[params.about.skills]]
 			name = "React/Redux"
 			value = 8
 
