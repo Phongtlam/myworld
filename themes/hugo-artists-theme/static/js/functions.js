@@ -57,13 +57,12 @@ function  workLoad() {
         spinner = '<div class="loader">Loading...</div>';
         // newHTML = 'https://phongtlam.github.io/myworld/work/'+ newfolder;
 				// console.log('new HTML is', newHTML)
-				console.log('what is protocol', protocol)
 
 		$.ajax({
 		    type: 'GET',
 		    // dataType: "jsonp",
 		    crossDomain: true,
-		    url: protocol + "//phongtlam.github.io/myworld/work/" + newfolder,
+		    url: "/myworld/work/" + newfolder + '/',
 		    success: function (responseData, textStatus, jqXHR) {
 						console.log('resp data', typeof(responseData))
 		        $('.project-load').html(responseData);
