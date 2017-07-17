@@ -57,7 +57,7 @@ function  workLoad() {
         spinner = '<div class="loader">Loading...</div>';
         // newHTML = 'https://phongtlam.github.io/myworld/work/'+ newfolder;
 				// console.log('new HTML is', newHTML)
-				console.log('protocol', protocol)
+				console.log('what is protocol', protocol)
 
 		$.ajax({
 		    type: 'GET',
