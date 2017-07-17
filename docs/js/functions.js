@@ -47,7 +47,7 @@ function workBelt() {
 function  workLoad() {
 
   $.ajaxSetup({ cache: true });
-	$.support.cors = true;
+	jQuery.support.cors = true;
 
   $('.thumb-container label').click(function() {
     var $this = $(this),
@@ -59,11 +59,11 @@ function  workLoad() {
 
 		$.ajax({
 		    type: 'GET',
-		    dataType: "text",
+		    // dataType: "jsonp",
 		    crossDomain: true,
 		    url: "https://phongtlam.github.io/myworld/work/" + newfolder,
 		    success: function (responseData, textStatus, jqXHR) {
-						console.log(responseData)
+						console.log('resp data', typeof(responseData))
 		        $('.project-load').html(responseData);
 		    },
 		    error: function (responseData, textStatus, errorThrown) {
